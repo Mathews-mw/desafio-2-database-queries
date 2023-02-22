@@ -205,11 +205,6 @@ describe('Repositories', () => {
 
     expect(users).toEqual([
       expect.objectContaining({
-        first_name: 'Vinicius',
-        last_name: 'Fraga',
-        email: 'vinicius.fraga@rocketseat.com.br',
-      }),
-      expect.objectContaining({
         first_name: 'Danilo',
         last_name: 'Vieira',
         email: 'danilo.vieira@rocketseat.com.br',
@@ -218,6 +213,11 @@ describe('Repositories', () => {
         first_name: 'Joseph',
         last_name: 'Oliveira',
         email: 'joseph.oliveira@rocketseat.com.br',
+      }),
+      expect.objectContaining({
+        first_name: 'Vinicius',
+        last_name: 'Fraga',
+        email: 'vinicius.fraga@rocketseat.com.br',
       }),
     ]);
   });
